@@ -1,0 +1,19 @@
+{
+    "name": "rb/treinandophp.com",
+    "description": "Treinando em PHP!",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rb\\TreinandophpCom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael Barros",
+            "email": "rbfreires@gmail.com"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
